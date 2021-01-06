@@ -1,4 +1,4 @@
-# latex-resume
+# latex-resume-template
 LaTeX Resume Template
 
 ![Jeff Dean's Resume](resume.jpg)
