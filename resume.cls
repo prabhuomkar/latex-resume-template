@@ -24,15 +24,15 @@
     \textbf{#1} 
     \vspace{0.15cm} 
     \hrule 
-    \newline
+    \leavevmode\newline
     {#2}
 }{}
 \newenvironment{frcontent}[4]{
     {
-        \textbf{#1} \newline
+        \textbf{#1} \leavevmode\newline
         {\footnotesize	
-            \ifthenelse{\equal{#2}{}}{}{{#2 \newline}}
-            \ifthenelse{\equal{#3}{}}{}{{#3 \newline}}
+            \ifthenelse{\equal{#2}{}}{}{{#2 \leavevmode\newline}}
+            \ifthenelse{\equal{#3}{}}{}{{#3 \leavevmode\newline}}
             \ifthenelse{\equal{#4}{}}{}{{\textit{#4}}}
         }
     }
