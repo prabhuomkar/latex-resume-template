@@ -24,7 +24,6 @@
     \textbf{#1} 
     \vspace{0.15cm} 
     \hrule 
-    \leavevmode\newline
     {#2}
 }{}
 \newenvironment{frcontent}[4]{
